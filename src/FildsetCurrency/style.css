@@ -1,0 +1,38 @@
+.fildset__currency {
+    min-width: 240px;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+.fildset__label {
+    padding: 5px;
+    display: flex;
+}
+
+.fildset {
+    border-radius: 10px;
+    border: 2px solid teal;
+    background-color: hsl(0, 0%, 90%);
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;   
+}
+
+.form__label--changed {
+    max-width: 500px;
+    margin-left: 25px;
+    padding: 10px;
+    font-size: 20px;
+    display: contents;
+}
+ 
+ .fildset__paragraph{
+     margin: auto;
+     max-height: 150px;
+     display: grid;
+     grid-template-columns: 1fr 1fr;
+ }
+ 

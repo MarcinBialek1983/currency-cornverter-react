@@ -1,0 +1,18 @@
+.fildset__legend {
+    border: 2px solid teal;
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 10px;
+    background-color: hsl(0, 0%, 100%);
+    margin: auto;
+}
+
+.form__fildset--changed {
+    border-radius: 10px;
+    border: 2px solid teal;
+    margin: auto;
+    background-color: hsl(0, 0%, 90%);
+    padding: 10px;
+    max-width: 500px;
+}
+
