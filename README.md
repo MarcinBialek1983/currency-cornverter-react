@@ -1,7 +1,7 @@
 # currency-cornverter
 ## Hello. this is my demo version of currency exchange. Current buying and selling rates will be available soon.
 
-## MY site is live at https://marcinbialek1983.github.io/currency-cornverter-react/
+## MY site is live at [Demo](https://marcinbialek1983.github.io/currency-cornverter-react/)
 ## Now you can exchange the following currencies:
 
 1. PLN/EUR
@@ -17,8 +17,11 @@
 
 - HTML
 - CSS
-- JavaScript
+- Java Script Es6+
 - BEM convention
+- React.js
+- useState
+- useEfect
 
 # Getting Started with Create React App
 
