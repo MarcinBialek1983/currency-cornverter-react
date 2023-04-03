@@ -4,7 +4,7 @@
 ## here you can see how the application works
 ![Demo animation](./src/Animation.gif)
 
-## MY site is live at [Demo] (https://marcinbialek1983.github.io/currency-cornverter-react/)
+## MY site is live at [Demo](https://marcinbialek1983.github.io/currency-cornverter-react/)
 ## Now you can exchange the following currencies:
 
 1. PLN/EUR
