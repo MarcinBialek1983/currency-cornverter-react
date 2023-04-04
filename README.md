@@ -2,9 +2,9 @@
 ## Hello. this is my demo version of currency exchange. Current buying and selling rates will be available soon.
 
 ## here you can see how the application works
-![Demo animation](./src/Animation.gif)
+![Demo animation] (./src/Animation.gif)
 
-## MY site is live at [Demo](https://marcinbialek1983.github.io/currency-cornverter-react/)
+## MY site is live at [Demo] (https://marcinbialek1983.github.io/currency-cornverter-react/)
 ## Now you can exchange the following currencies:
 
 1. PLN/EUR
