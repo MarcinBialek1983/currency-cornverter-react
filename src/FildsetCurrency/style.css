@@ -35,6 +35,12 @@
      display: grid;
      grid-template-columns: 1fr 1fr;
  }
+
+ @media(max-width: 767px) {
+    .fildset__paragraph{
+        grid-template-columns: auto;
+    }
+}
  
  .img {
     margin: auto;
