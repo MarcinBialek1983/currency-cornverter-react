@@ -22,10 +22,11 @@ export const Form = ({ calculateResult, result }) => {
                 <label className="form__label form__label--changed"><span className="form__label--text">Podaj kwotę w PLN:</span>
                     <input
                         value={amount}
-                        onChange={({ target }) => setAmount(target.value)}
+                        onChange={({ target }) => setAmount(target.value.slice(0))}
                         className="form__label--input"
                         type="number"
                         required step="0.01"
+                        min="0.1"
                         placeholder="Podaj kwotę w złotówkach" />
                 </label>
             </p>
