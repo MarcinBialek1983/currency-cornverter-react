@@ -18,8 +18,9 @@ export const Form = ({ calculateResult, result }) => {
         <form
             className="form"
             onSubmit={onSubmit}>
-            <p>
-                <label className="form__label form__label--changed"><span className="form__label--text">Podaj kwotę w PLN:</span>
+            <label className="form__label--changed">
+                <p className="form__paragraph">
+                    <span className="form__label--text">Podaj kwotę w PLN:</span>
                     <input
                         value={amount}
                         onChange={({ target }) => setAmount(target.value.slice(0))}
@@ -28,21 +29,24 @@ export const Form = ({ calculateResult, result }) => {
                         required step="0.01"
                         min="0.1"
                         placeholder="Podaj kwotę w złotówkach" />
-                </label>
-            </p>
-            <label className="form__label form__label--changed" ><span className="form__label--text">Wybierz walutę:</span>
-                <select className="form__label--select"
-                    value={currency}
-                    onChange={({ target }) => setCurrency(target.value)}>
-                    {currencies.map(currency => (
-                        <option
-                         key={currency.short} 
-                         value={currency.short}
-                         >
-                        {currency.name}
-                        </option>
-                    ))}
-                </select>
+                </p>
+            </label>
+            <label className="form__label--changed" >
+                <p className="form__paragraph">
+                    <span className="form__label--text">Wybierz walutę:</span>
+                    <select className="form__label--select"
+                        value={currency}
+                        onChange={({ target }) => setCurrency(target.value)}>
+                        {currencies.map(currency => (
+                            <option
+                                key={currency.short}
+                                value={currency.short}
+                            >
+                                {currency.name}
+                            </option>
+                        ))}
+                    </select>
+                </p>
                 <p>
                     <button className="form__button">Wymień</button>
                 </p>

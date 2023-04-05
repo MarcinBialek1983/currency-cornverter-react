@@ -14,7 +14,6 @@
 
 .form__label--select {
     border-radius: 10px;
-    margin-left: 45px;
     min-width: 250px;
     text-align: center;
 }
@@ -58,4 +57,10 @@
     margin-left: 5px;
     text-align: center;
     min-width: 250px;
+}
+
+.form__paragraph{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
